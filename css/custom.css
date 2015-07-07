@@ -6455,3 +6455,27 @@ ul.notifications {
 #work , #warning , #stop {
 	color: #2A3F54;
 }
+
+.wellBlock .x_panel{
+	padding: 0px !important;
+	background: #ddd;
+}
+
+.x_panel .wellBlockContent, .x_panel .wellBlockFooter{
+	background: #fff;
+}
+
+.stste-work{
+	color:#66BB6A;
+}
+.stste-warning{
+	color:#FFCA28;
+}
+.stste-error{
+	color:#F44336;
+}
+
+.stste-work, .stste-warning, .stste-error{
+	padding: 5px;
+	font-size: 12pt;
+}

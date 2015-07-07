@@ -50,6 +50,7 @@ $(function () {
             }
         }
     });
+	
 });
 
 /* Sidebar Menu active class */
