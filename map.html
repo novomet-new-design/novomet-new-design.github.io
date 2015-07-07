@@ -181,31 +181,30 @@
     <!-- dashbord linegraph -->
     <script src=" http://api-maps.yandex.ru/2.1.2/?lang=ru-RU&load=package.full"></script>
 		<script type="text/javascript">
-			ymaps.ready(function () {
-				var myMap = new ymaps.Map('myMap', {
-				center: [55.751574, 37.573856],
-				zoom: 4
-				});
-				myMap.geoObjects
-				.add(new ymaps.Placemark([56.202586, 96.039049], {
-				balloonContent: ''
-				}, {
-				preset: 'islands#dotIcon',
-				iconColor: '#3b5998'
-				}))
-				.add(new ymaps.Placemark([53.359227, 88.30468], {
-				balloonContent: ''
-				}, {
-				preset: 'islands#dotIcon',
-				iconColor: '#3b5998'
-				}))
-				.add(new ymaps.Placemark([60.450131, 104.652329], {
-				balloonContent: ''
-				}, {
-				preset: 'islands#dotIcon',
-				iconColor: '#3b5998'
-				}))
-			});
+			ymaps.ready(function() {
+			    var myMap = new ymaps.Map('myMap', {
+			        center: [55.751574, 37.573856],
+			        zoom: 4
+			    });
+			    myMap.geoObjects
+			        .add(new ymaps.Placemark([56.202586, 96.039049], {
+			            balloonContent: ''
+			        }, {
+			            preset: 'islands#dotIcon',
+			            iconColor: '#3b5998'
+			        }))
+			        .add(new ymaps.Placemark([53.359227, 88.30468], {
+			            balloonContent: ''
+			        }, {
+			            preset: 'islands#dotIcon',
+			            iconColor: '#3b5998'
+			        }))
+			        .add(new ymaps.Placemark([60.450131, 104.652329], {
+			            balloonContent: ''
+			        }, {
+			            preset: 'islands#dotIcon',
+			            iconColor: '#3b5998'
+			        }))
 		 </script>
 </body>
 
