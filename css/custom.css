@@ -1934,7 +1934,8 @@ span.right {
 .sidebar-footer a {
     padding: 7px 0 3px;
     text-align: center;
-    width: 25%;
+    //width: 25%;
+	width: 33.3%;
     font-size: 17px;
     display: block;
     float: left;
@@ -6437,4 +6438,20 @@ ul.notifications {
 
 .field{
 	margin-top: 10px;
+}
+
+#work{
+	background: #66BB6A;
+}
+
+#stop{
+	background: #F44336;
+}
+
+#warning{
+	background: #FFCA28;
+}
+
+#work , #warning , #stop {
+	color: #2A3F54;
 }
