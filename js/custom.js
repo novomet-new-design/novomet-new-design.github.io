@@ -315,3 +315,12 @@ $(document).ready(function () {
 
 });
 /** ******  /scrollview  *********************** **/
+
+
+function objectsStatus(){
+	window.location.href='objectsStatus.html';
+}
+
+function objectInformation(){
+	window.location.href='objectInformation.html';
+}

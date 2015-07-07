@@ -6395,3 +6395,46 @@ ul.notifications {
 	height:100%;
 	min-height: 900px;
 }
+
+.width150{
+	width: 150px;
+}
+
+.widthButton{
+	width:100%;
+}
+
+.wellBlock{
+	padding: 6px;
+}
+
+.wellBlockHeader{
+	padding: 0px 10px;
+	text-align: center;
+}
+
+.nav-list li{
+	padding: 5px 0px 5px 17px;
+}
+
+.nav-list li:hover{
+	background: #E6E9ED;
+	cursor: pointer;
+}
+
+.nav-list .nav-header{
+	padding: 0px !important;
+}
+
+.nav-container{
+	border: 2px solid #E6E9ED;
+}
+
+.not-selected:hover, .nav-header:hover{
+	background: transparent !important;
+	cursor: auto !important;
+}
+
+.field{
+	margin-top: 10px;
+}

@@ -161,9 +161,49 @@
 				<div class="container">
                     <div class="row">
 						<div class="x_panel">
-							<div class="x_title h3">Параметры объектов</div>
-							<div class="x_content">
-								<div class="col-md-2">
+						<div class="" role="tabpanel" data-example-id="togglable-tabs">
+							<ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+							  <li role="presentation" class="active"><a href="#data" aria-controls="data" role="tab" data-toggle="tab">Данные</a></li>
+							  <li role="presentation"><a href="#setpoints" aria-controls="setpoints" role="tab" data-toggle="tab">Уставки</a></li>
+							  <li role="presentation"><a href="#archive" aria-controls="archive" role="tab" data-toggle="tab">Архив</a></li>
+							  <li role="presentation"><a href="#information" aria-controls="information" role="tab" data-toggle="tab">Информация</a></li>
+							  <li role="presentation"><a href="#downloads" aria-controls="downloads" role="tab" data-toggle="tab">Загруженные файлы</a></li>
+							</ul>
+							<div id="myTabContent" class="tab-content">
+								<div role="tabpanel" class="tab-pane fade active in" id="data">
+									<div class="col-md-10">
+										<div class="h5"> Векторнефть > Призабойненское > Куст 123 > Скважина 319</div>
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<table class="table">
+												<tr><th>Параметр</th><th class="value">Значение</th><th>Параметр</th><th class="value">Значение</th></tr>
+												<tr><td>Режим</td><td class="value">Ручной</td><td>Напряжение Ud, В</td><td class="value">555</td></tr>
+												<tr><td>Частота, Гц</td><td class="value">60.2</td><td>Вых напряж ПЧ, В</td><td class="value">444</td></tr>
+												<tr><td>Частота зад, Гц</td><td class="value">60.2</td><td>Вых ток ПЧ, А</td><td class="value">124.4 123.2 132.4</td></tr>
+												<tr><td class="station-state-warning">загрузка, %</td><td class="value station-state-warning">77.4</td><td class="station-state-danger">Темпер радиат, С</td><td class="value station-state-danger">116.5</td></tr>
+												<tr><td class="station-state-warning">Ток двигателя, А</td><td class="value station-state-warning">24.4 23.2 32.4</td><td>Вх ток, А</td><td class="value">124.4 123.2 132.4</td></tr>
+												<tr><td class="station-state-warning">Дисб тока двигателя, %</td><td class="value station-state-warning">12.0</td><td>Дисб вх тока, %</td><td class="value">12.0</td></tr>
+												<tr><td class="station-state-warning">Напряж двиг, В</td><td class="value station-state-warning">3889</td><td>Межфаз напряж, В</td><td class="value">400 410 412</td></tr>
+												<tr><td class="station-state-warning">Сопр изол, кОм</td><td class="value station-state-warning">9999</td><td>Вх напряж АВС, В</td><td class="value">220 222 212</td></tr>
+												<tr><td>Активн мощн, кВт</td><td class="value">555.5</td><td>Дисб вх напряж, %</td><td class="value">12.0</td></tr>
+												<tr><td>Полная мощн, кВА</td><td class="value">555.5</td><td>Дав на прием, Мпа</td><td class="value">2.534</td></tr>
+												<tr><td>Коэфф мощности</td><td class="value">0.875</td><td class="station-state-danger">Темпер двиг, С</td><td class="value station-state-danger">160.4</td></tr>
+											</table>
+										</div>
+										<div class="col-md-12 col-sm-12 col-xs-12">
+											<div class="col-md-4 col-sm-4 col-xs-4"><button class="btn btn-success width150" type="button"><i class="fa fa-play"></i> Пуск</button></div>
+											<div class="col-md-4 col-sm-4 col-xs-4"><button class="btn btn-danger width150" type="button"><i class="fa fa-stop"></i> Стоп</button></div>
+											<div class="col-md-4 col-sm-4 col-xs-4"><button class="btn btn-warning width150" type="button"><i class="fa fa-warning"></i> Квитировать</button></div>
+										</div>
+									</div>
+									<div class="col-md-2" style="height: 100%;">
+										<div>
+											<button type="button" class="btn btn-default widthButton">Отобразить все</button>
+											<button type="button" class="btn btn-default widthButton">Запросить данные</button>
+										</div>
+									</div>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="setpoints">
+									<div class="col-md-2 nav-container">
 									<ul class="nav nav-list">
 										<li class="nav-header h4">Оборудование</li>
 										<li>Станция</li>
@@ -206,14 +246,38 @@
 										</li>
 									</ul>
 								</div>
+									<div class="col-md-9"></div>
+								</div>
+								
+							  <div role="tabpanel" class="tab-pane" id="archive">archive</div>
+							  
+							  <div role="tabpanel" class="tab-pane" id="information">information</div>
+							  
+							  <div role="tabpanel" class="tab-pane" id="settings">information</div>
+							  <div role="tabpanel" class="tab-pane" id="downloads">
+								  <div class="col-md-12 col-sm-12 col-xs-12"><button type="button" class="btn btn-primary btn-md">Запросить архив</button></div>
+									<div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 6px">
+										<table class="table table-bordered">
+											<tr><td>12.12.2012 13:14:15</td><td>
+												<div class="progress">
+													<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+														60%
+													</div>
+												</div></td>
+											</tr>
+											<tr><td>10.11.2012 10:11:12</td><td>Загружен</td></tr>
+											<tr><td></td><td></td></tr>
+											<tr><td></td><td></td></tr>
+											<tr><td></td><td></td></tr>
+										</table>
+									</div>
+							  </div>
 							</div>
-						</div>
-						<div class="col-md-9">
-
+					  </div>
 						</div>
 					</div>
 				</div>
-			</div>
+            </div>
         </div>
     </div>
 
