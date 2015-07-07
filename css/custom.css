@@ -6455,10 +6455,10 @@ ul.notifications {
     color: #2A3F54;
 }
 
-.wellBlock .x_panel{
+/*.wellBlock .x_panel{
     padding: 0px !important;
     background: #ddd;
-}
+}*/
 
 .x_panel .wellBlockContent, .x_panel .wellBlockFooter{
     background: #fff;
