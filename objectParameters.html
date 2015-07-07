@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Novomet </title>
+
+    <!-- Bootstrap core CSS -->
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom styling plus plugins -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="../assets/js/ie8-responsive-file-warning.js"></script>
+        <![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+
+<body class="nav-md">
+
+    <div class="container body">
+
+
+        <div class="main_container">
+
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><img src="img/novomet-logo.png" class="novomet-logo"> <span>Novomet Track</span></a>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <!-- menu prile quick info -->
+                    <div class="profile">
+                        <div class="profile_pic">
+                            <img src="img/person-avatar.jpg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Добро пожаловать,</span>
+                            <h2>Евгений Хорошев</h2>
+                        </div>
+                    </div>
+                    <!-- /menu prile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <h3></h3>
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i>Мониторинг<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="index.html">Таблица</a>
+                                        </li>
+                                        <li><a href="map.html">Карта</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-bar-chart-o"></i>Аналитика<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="#">Отчеты</a>
+                                        </li>
+                                        <li><a href="#">OLAP</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-desktop"></i>Справочники<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                         <li><a href="wellsGuide.html">Скважины</a>
+                                        </li>
+                                        <li><a href="measurementParameters.html">Параметры измерений</a>
+                                        </li>
+                                    </ul>
+                                </li>
+								<li><a><i class="fa fa-edit"></i>Настройки<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="generalSettings.html">Общие настройки</a>
+                                        </li>
+                                        <li><a href="objectParameters.html">Параметры объектов</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="img/person-avatar.jpg" alt="">Евгений Хорошев
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                    <li>
+                                        <a href="javascript:;">Справка</a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-sign-out pull-right"></i>Выход</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <!-- /top navigation -->
+
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+				<div class="container">
+                    <div class="row">
+						<div class="panel col-md-12">
+							<div class="col-md-3">
+								<div class="well">
+								<ul class="nav nav-list">
+									<li class="nav-header">Оборудование</li>
+									<li  onclick="selectSetpoint(this)">Станция</li>
+									<li onclick="selectSetpoint(this)">Двигатель</li>
+									<li onclick="selectSetpoint(this)">ТМПН</li>
+									<li onclick="selectSetpoint(this)">ЧРП</li>
+									<li onclick="selectSetpoint(this)">Тип ТМС</li>
+								</ul>
+								<ul class="nav nav-list">
+									<li class="nav-header">Защиты</li>
+									<li class="not-selected">
+										<ul class="nav nav-list">
+											<li class="nav-header">Защиты по сети</li>
+											<li onclick="selectSetpoint(this)">Превышение питания</li>
+											<li onclick="selectSetpoint(this)">Снижение питания</li>
+											<li onclick="selectSetpoint(this)">Дисбаланс напряжения</li>
+										</ul>
+									</li>
+									<li class="not-selected">
+										<ul class="nav nav-list">
+											<li class="nav-header">Защиты двигателя</li>
+											<li onclick="selectSetpoint(this)">Перегруз</li>
+											<li onclick="selectSetpoint(this)">Недогруз</li>
+											<li onclick="selectSetpoint(this)">Турбинное вращение</li>
+										</ul>
+									</li>
+									<li class="not-selected">
+										<ul class="nav nav-list">
+											<li class="nav-header">Защиты по ТМС</li>
+											<li onclick="selectSetpoint(this)">Давление на приеме насоса</li>
+											<li onclick="selectSetpoint(this)">Перегрев двигателя</li>
+											<li onclick="selectSetpoint(this)">Сопротивление изоляции</li>
+										</ul>
+									</li>
+									<li class="not-selected">
+										<ul class="nav nav-list">
+											<li class="nav-header">Защиты дополнительные</li>
+											<li onclick="selectSetpoint(this)">Защита ЧРП</li>
+										</ul>
+									</li>
+								</ul>
+									</div>
+							</div>
+							<div class="col-md-9">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- chart js -->
+    <script src="js/chartjs/chart.min.js"></script>
+    <!-- bootstrap progress js -->
+
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
