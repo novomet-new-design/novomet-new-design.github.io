@@ -783,7 +783,8 @@ li.current-page a {
     margin-left: 0 !important;
     line-height: 59px;
     display: block;
-    height: 55px;
+    //height: 55px;
+    height: 57px;
     margin: 0;
     padding-left: 10px;
 }
