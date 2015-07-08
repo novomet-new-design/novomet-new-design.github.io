@@ -171,16 +171,99 @@
 
                                 <div class="row">
                                     <div class="col-xs-12">
-                                        <table class="table  table-bordered"  ondblclick="objectsStatus()">
+                                        <table class="table  table-bordered">
                                             <thead>
-                                            <th>Компания</th>
-                                            <th>Месторождение</th>
-                                            <th>Куст</th>
-                                            <th>Скважина</th>
-                                            <th>Состояние</th>
+                                            <tr>
+                                            <th>Компания
+                                            	<div class="btn-group navbar-right">
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-arrow-down"></span></button>
+													<ul class="dropdown-menu not-closed-menu" role="menu">
+														<li class="search-item">
+															<div class="input-group">
+															    <input type="text" class="form-control">
+															    <span class="input-group-btn">
+															       	<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+															    </span>
+															</div>
+														</li>
+														<li class="dropdown-item"><input type="checkbox">Векторнефть</li>
+														<li class="dropdown-item"><input type="checkbox"> Тест 1</li>
+														<li class="dropdown-item"><input type="checkbox"> Тест 2</li>
+														<li class="dropdown-item"><input type="checkbox"> Тест 3</li>
+													</ul>
+												 </div>
+                                            </th>
+                                            <th>Месторождение
+                                            	<div class="btn-group navbar-right">
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-arrow-down"></span></button>
+													<ul class="dropdown-menu not-closed-menu" role="menu">
+														<li class="search-item">
+															<div class="input-group">
+															    <input type="text" class="form-control">
+															    <span class="input-group-btn">
+															       	<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+															    </span>
+															</div>
+														</li>
+														<li class="dropdown-item"><input type="checkbox">Призабойненское</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 1</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 2</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 3</li>
+													</ul>
+												 </div>
+                                            </th>
+                                            <th>Куст
+                                            	<div class="btn-group navbar-right">
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-arrow-down"></span></button>
+													<ul class="dropdown-menu not-closed-menu" role="menu">
+														<li class="search-item">
+															<div class="input-group">
+															    <input type="text" class="form-control">
+															    <span class="input-group-btn">
+															       	<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+															    </span>
+															</div>
+														</li>
+														<li class="dropdown-item"><input type="checkbox">Куст 123</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 1</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 2</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 3</li>
+													</ul>
+												 </div>
+                                            </th>
+                                            <th>Скважина
+                                            	<div class="btn-group navbar-right">
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-arrow-down"></span></button>
+													<ul class="dropdown-menu not-closed-menu" role="menu">
+														<li  class="search-item">
+															<div class="input-group">
+															    <input type="text" class="form-control">
+															    <span class="input-group-btn">
+															       	<button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+															    </span>
+															</div>
+														</li>
+														<li class="dropdown-item"><input type="checkbox">Скважина 319</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 1</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 2</li>
+														<li class="dropdown-item"><input type="checkbox">Тест 3</li>
+													</ul>
+												 </div>
+                                            </th>
+                                            <th>Состояние
+                                            	<div class="btn-group navbar-right">
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-arrow-down"></span></button>
+													<ul class="dropdown-menu not-closed-menu" role="menu">
+														<li class="dropdown-item"><input type="checkbox">Работает</li>
+														<li class="dropdown-item"><input type="checkbox">Нет ответа</li>
+														<li class="dropdown-item"><input type="checkbox">Остановлена</li>
+													</ul>
+												 </div>
+                                            </th>
+                                            </tr>
                                             </thead>
 
-                                            <tbody class="station-state ">
+                                            <tbody class="station-state "   ondblclick="objectsStatus()">
                                             <tr class="station-state-success">
                                                 <td>Векторнефть</td>
                                                 <td>Призабойненское</td>

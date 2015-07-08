@@ -50,6 +50,11 @@ $(function () {
             }
         }
     });
+
+    $('.not-closed-menu').on('click', function(e) {
+        //e.preventDefault();
+        e.stopPropagation();
+    });
 	
 });
 

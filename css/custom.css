@@ -5821,7 +5821,7 @@ form:after {
     content: "";
     height: 1px;
     position: absolute;
-    top: 10px;
+    top: 25px;
     width: 20%;
 }
 .login_content h1:after {
@@ -6477,4 +6477,37 @@ ul.notifications {
 .stste-work, .stste-warning, .stste-error{
     padding: 5px;
     font-size: 12pt;
+}
+
+th div .dropdown-toggle{
+    padding: 1px !important;
+    height: 22px;
+    width: 22px;
+    
+}
+
+th div button span, th div button i{color:#73879C;}
+
+.dropdown-item{
+    min-width: 170px;
+    padding: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+    border-top: 1px solid #ccc;
+}
+
+.dropdown-item:hover{
+    background: #EDEDED;
+}
+
+.search-item{
+    padding: 5px;
+    background: #E4E4E4;
+}
+
+.search-item div{margin: 0px !important;}
+
+.search-item input{
+    font-weight: normal;
+    color:#73879C;
 }
