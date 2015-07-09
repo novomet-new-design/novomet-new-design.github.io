@@ -1,7 +1,7 @@
 body.nav-sm .container.body .left_col {
     width: 70px;
     padding: 0;
-    position: fixed;
+    //position: fixed;
     height: 100%;
     z-index: 200;
 }
@@ -6446,6 +6446,24 @@ ul.notifications {
 
 #stop{
     background: #F44336;
+}
+
+#stop {
+    -webkit-animation: blink 2s linear infinite; 
+    animation: blink 2s linear infinite; 
+    background-color: #F44336; 
+}
+
+@-webkit-keyframes blink { 
+    0% { background-color: #F44336; }
+    50% { background-color: #7C090F; font-weight: bold; color: #fff;}
+    100% { background-color: #F44336; }
+}
+
+@keyframes blink {  
+    0% { background-color:#F44336; }
+    50% { background-color: #7C090F;  font-weight: bold; color: #fff;}
+    100% { background-color: #F44336; } 
 }
 
 #warning{

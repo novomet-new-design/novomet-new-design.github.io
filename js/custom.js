@@ -55,6 +55,14 @@ $(function () {
         //e.preventDefault();
         e.stopPropagation();
     });
+
+    $("#add_oilfield").click(function(){
+        $('#modal').modal('show');
+    });
+
+    $('.btn-danger').click(function(){
+        $('#warning-modal').modal('show');
+    });
 	
 });
 
